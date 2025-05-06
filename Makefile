@@ -13,3 +13,14 @@ run-server: build
 
 run-client: build
 	cargo run -- client
+
+help:
+	@echo "Makefile for building and running the project"
+	@echo ""
+	@echo "Usage:"
+	@echo "  make all          Build the project"
+	@echo "  make build        Build the project"
+	@echo "  make clean        Clean the project"
+	@echo "  make run-server   Run the server"
+	@echo "  make run-client   Run the client"
+	@echo "  make help         Show this help message"
